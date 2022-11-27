@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: UNLICENSED
 
-pragma solidity ^0.8.17;
+pragma solidity ^0.8.0;
 
 import "hardhat/console.sol";
 
@@ -8,7 +8,7 @@ contract WavePortal {
     uint256 totalWaves;
 
     constructor() {
-        console.log("Yo yo, I am a contract and I am smart");
+        console.log("Yo yo, I am a contract am I am smart");
     }
 
     function wave() public {
